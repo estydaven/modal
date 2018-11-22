@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <title> Modal</title>  
+  <link href="logo.png" rel="shortcut icon"> 
+</head>
+<body>  
+    <div class="modal">
+        <div class="modal__body">
+            <h1 class="modal__title">Запрос коммерческого предложения</h1>
+            <form action="/submit" class="form" method="POST">
+              <div class="form-block">
+                  <div class="form-block__input">
+                      <div class="field">
+                        <input class="field__input field__input_first" type="text" name="name" placeholder="Ваше имя*" required>
+                        <input class="field__input" type="email" name="email" placeholder="E-mail">                        
+                      </div>
+                    </div>                
+                    <div class="form-block__input">
+                      <div class="field">
+                          <input class="field__input field__input_first" type="tel" name="phone" placeholder="Контактный телефон*" required>
+                        <input class="field__input" type="text" name="text" placeholder="Адрес сайта для бесплатного аудита">
+                      </div>
+                    </div>
+                </div>                
+                <div class="form-block__textarea">                  
+                    <textarea class="textarea" name="area" placeholder="Ваш комментарий"></textarea>                  
+                </div>
+                <div class="form-link">
+                    <label>
+                        <input type="file" name="file">
+                        <span class="file-link file-link_plus">+ </span><span class="file-link file-link_text">Прикрепить файл</span>
+                   </label>
+                </div>
+                <div class="form-button">
+                    <button class="form-button__button" type="button">Получить коммерческое предложение</button>
+                </div>
+            </form>
+        </div> 
+    </div>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
+</body>
+</html>
