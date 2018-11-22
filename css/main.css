@@ -23,7 +23,7 @@ html{
 }
 .modal__title{
     margin: 0;
-    padding: 34px 64px 39px 64px;
+    padding: 24px 64px 26px 64px;
     font-family: 'Ubuntu';
     font-size: 28px;
     text-align: left;
@@ -32,7 +32,7 @@ html{
 }
 
 .field{
-    padding:3px 0 30px 0;
+    padding:3px 0 20px 0;
 }
 .field__input{
     border: 1px solid #ccc;
@@ -54,7 +54,7 @@ html{
 }
 .textarea{
     width: 97.8%;
-    height: 160px;
+    height: 120px;
     border: 1px solid #ccc;
     font-family: 'Ubuntu';
     font-weight: 300;
@@ -97,7 +97,7 @@ html{
 }
 .form-button{    
     width: 52.2%;
-    padding: 0 0 39px 64px;
+    padding: 0 0 27px 64px;
 }
 .form-button__button{
     padding: 28px 0px;
@@ -126,6 +126,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc8de3', end
 }
 
 /* МЕДИАЗАПРОСЫ*/
+@media (max-width:1430px){
+    .field__input_first {
+        margin-right: 2.3%;
+    }
+}
 @media (max-width:1300px){
     .field__input_first {
         margin-right: 1.7%;
