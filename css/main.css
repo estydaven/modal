@@ -196,7 +196,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc8de3', end
         text-align: center;
     }
     .form-block__textarea {
-        padding: 0 38px 16px 19px;
+        padding: 0 38px 0 19px;
     }
     .form-link {
         margin: 0 0 30px 23px;
@@ -210,7 +210,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc8de3', end
 }
 @media (max-width:420px){
     .modal__title {
-        padding: 20px 0;
+        padding: 10px 0;
     }
     .field__input {
         width: 94%;
@@ -223,12 +223,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc8de3', end
         padding: 0 0 19px 0;
     }
     .form-link {
-        margin: 0 0 14px 23px;
+        margin: 0 0 6px 23px;
     }
 }
 @media (max-width:360px){
     .form-button__button{
-        padding: 16px 0px;
+        padding: 5px 0px;
+        line-height: 20px;
     }
     
     .modal__title{
